@@ -1,0 +1,10 @@
+# -*- coding:UTF-8 -*-
+file = open('new.txt','w')
+file1 = open('string.txt','r')
+string1 = file1.read()
+file2 = open('upper.txt','r')
+string2 = file2.read()
+file.write(string1+string2)
+file.close()
+file1.close()
+file2.close()
